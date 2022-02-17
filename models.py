@@ -12,7 +12,7 @@ import timm
 import torch
 from torch import nn
 
-import losses
+import slip.losses
 
 
 class LayerNorm(nn.LayerNorm):
