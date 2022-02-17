@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import utils
+import slip.utils as utils
 
 
 class CLIPLoss(nn.Module):
